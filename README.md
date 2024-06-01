@@ -21,6 +21,10 @@ Este almacenamiento permitirá consultar los datos por medio de Querys o consult
 6. Inserción y consulta en la base de datos:
    - insersión de datos por medio de JpsRepository
 
+
+https://github.com/Ismael-Vasco/LiterAlura_Challenge/assets/157051386/41ad3b2a-dfe8-4c91-bd5b-73e9aa8140c3
+
+
 7. Exibición de resultados a los usuarios;
    - por medio de Querys JPA se visualizan los datos requeridos desde la base de datos 
 
