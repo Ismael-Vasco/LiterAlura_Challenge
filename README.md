@@ -1,13 +1,26 @@
 <h1 align="center"> Practicando Spring Boot: Challenge Literalura </h1>
 
-<img src="https://img.shields.io/badge/STATUS-FINALIZADO-green" display="inline" >
+Este desarrollo extrae datos de la API: gutendex.com/book/ , la cual traerá los libros que el usuario desee buscar.
+luego de extraidos los libros, serán almacenados un una base de datos en PostgreSQL
+Este almacenamiento permitirá consultar los datos por medio de Querys o consultas JPA Java
 
-En este emocionante desafío de programación, cree mi propio catálogo de libros: el LiterAlura. Aprendi a realizar solicitudes a una API de libros, a manipular datos JSON, guardarlos en una base de datos y, finalmente, a filtrar y mostrar los libros y autores de interés.
+<h2>Implementos</h2>
+1. Configuración del Ambiente Java:
+- Implementación de Spring Boot Framework inicializado en Spring Inicializr
+- conexión de dependencias '<Dependencies></Dependencies>' en el archivo pom.xml
+- conexión  ala base de datos
 
-Los pasos seguidos completar este desafío se detallarán a continuación:
-- Configuración del Ambiente Java;
-- Creación del Proyecto;
-- Consumo de la API;
-- Análisis de la Respuesta JSON;
-- Inserción y consulta en la base de datos;
-- Exibición de resultados a los usuarios;
+2. Creación del Proyecto:
+   - Se crearon diferentes clases para la manipulación de API
+   - Se crearon diferentes records para la extracción de los datos Json de la API
+   - Se organizó todo este proyecto en carpetas como: model, principal, repository, service
+    
+3. Análisis de la Respuesta JSON:
+   - se manejo en Service: con el consumo de la API, convirtiendo los datos a los diferentes records para la manipulación de este mismo
+     
+6. Inserción y consulta en la base de datos:
+   - insersión de datos por medio de JpsRepository
+
+7. Exibición de resultados a los usuarios;
+   - por medio de Querys JPA se visualizan los datos requeridos desde la base de datos 
+
